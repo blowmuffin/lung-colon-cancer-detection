@@ -38,9 +38,8 @@ wheels/
 .DS_Store
 Thumbs.db
 
-# Model files (uncomment if Model.h5 is too large for GitHub)
-# Model.h5
-# *.h5
+# Model files (will use Git LFS for .h5 files)
+# Managed by Git LFS - see .gitattributes
 
-# Data files (if you want to exclude large datasets)
-# lung_colon_image_set/
+# Data files - exclude the large image dataset
+lung_colon_image_set/
